@@ -304,7 +304,7 @@ font-size: 19.5px;
 background-image: url(/contenido/WoodenCreepy.avif);
 background-size: cover;
 background-repeat: no-repeat;
- min-height: 220vh;
+ min-height: 250vh;
 }
 
 #pagina-tercera h1{
@@ -332,15 +332,15 @@ background-repeat: no-repeat;
 
 #terror{
     display: grid;    /*   largo    y    ancho           */
-    grid-template: repeat(3, 29%) / 400px repeat(4, 580px);
+    grid-template: repeat(3, 29%) / 200px repeat(4, 400px);
     grid-template-areas: 
     "items3 items3 items1 items2 items4"
     "items3 items3 items1 items2 items4"
     "items3 items3 items5 items5 items5";
     justify-content: center;
     align-content: center;
-    height: 130.1vh;
-    gap: 1.2rem;
+    height: 120vh;
+    gap: 1.1rem;
 }
 
 #terror div h2,h3,h4,h5{
@@ -355,39 +355,52 @@ background-repeat: no-repeat;
     margin: 5px;
     color: crimson;
     font-family: "Creepster", system-ui;
+    text-align: center;
+    list-style-position: inside;
+    margin: 0 auto;
+    display: inline-block;
 }
 
 .items-1{
     grid-area: items1;
-    font-size: 28px;
 }
 
 .items-2{
     grid-area: items2;
-    font-size: 28px;
 }
 
 .items-3{
     grid-area: items3;
-    text-align: center;
-    font-size: 28px;
-
 }
 
 .items-4{
     grid-area: items4;
-    font-size: 28px;
 }
 
 .items-5{
     grid-area: items5;
-    font-size: 28px;
 }
 
 #terror animetion{
     animation-duration: 2.5s;
 }
 
+#pagina-tercera audio {
+    display: block;
+    margin: 40px auto 0 auto;
+    background: rgba(30, 0, 0, 0.7);
+    border: 3px solid crimson;
+    border-radius: 18px;
+    box-shadow: 0 0 25px 5px crimson, 0 0 10px 2px black inset;
+    padding: 12px 18px;
+    width: 380px;
+    transition: box-shadow 0.3s;
+}
+
+#pagina-tercera audio:hover {
+    box-shadow: 0 0 40px 10px #ff1744, 0 0 15px 4px black inset;
+    border-color: #ff1744;
+}
 /*final de terror*/
 
 /*Comienzo de Histórico*/
