@@ -155,7 +155,7 @@ margin: 0;
 padding: 0;
 height: 300vh;
 box-sizing: border-box;
-background-image: url(/contenido/MarvelYDc.jpg);
+background-image: url(../contenido/MarvelYDc.jpg);
 }
 
 #pagina-secundaria h1{
@@ -301,10 +301,9 @@ font-size: 19.5px;
 
 /*comienzo de terror*/     
 #pagina-tercera {
-background-image: url(/contenido/WoodenCreepy.avif);
+background-image: url(../contenido/WoodenCreepy.avif);
 background-size: cover;
 background-repeat: no-repeat;
- min-height: 250vh;
 }
 
 #pagina-tercera h1{
