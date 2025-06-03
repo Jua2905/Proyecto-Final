@@ -300,13 +300,13 @@ font-size: 19.5px;
 
 
 /*comienzo de terror*/     
-#pagina-tercera {
+#terror {
 background-image: url(../contenido/WoodenCreepy.avif);
 background-size: cover;
 background-repeat: no-repeat;
 }
 
-#pagina-tercera h1{
+#terror h1{
     color: whitesmoke;
     text-align: center;
     font-family: "Nosifer", sans-serif;
@@ -317,7 +317,7 @@ background-repeat: no-repeat;
     font-size: 70px;    
 }
 
-#pagina-tercera article{
+#terror article{
     font-family: "Rubik Wet Paint", system-ui;  
     text-align: center;
     padding: 3%;
@@ -329,7 +329,7 @@ background-repeat: no-repeat;
     text-shadow: 3px 4px 2px rgb(0, 0, 0);
 }
 
-#terror{
+#P-terror{
     display: grid;    /*   largo    y    ancho           */
     grid-template: repeat(3, 29%) / 200px repeat(4, 400px);
     grid-template-areas: 
@@ -342,7 +342,7 @@ background-repeat: no-repeat;
     gap: 1.1rem;
 }
 
-#terror div h2,h3,h4,h5{
+#P-terror div h2,h3,h4,h5{
     color: white;
     font-family: 'Bebas Neue';
     font-weight: 800;
@@ -350,7 +350,7 @@ background-repeat: no-repeat;
     font-size: 35px;
 }
 
-#terror div{
+#P-terror div{
     margin: 5px;
     color: crimson;
     font-family: "Creepster", system-ui;
@@ -380,11 +380,11 @@ background-repeat: no-repeat;
     grid-area: items5;
 }
 
-#terror animetion{
+#P-terror animetion{
     animation-duration: 2.5s;
 }
 
-#pagina-tercera audio {
+#terror audio {
     display: block;
     margin: 40px auto 0 auto;
     background: rgba(30, 0, 0, 0.7);
@@ -396,7 +396,7 @@ background-repeat: no-repeat;
     transition: box-shadow 0.3s;
 }
 
-#pagina-tercera audio:hover {
+#terror audio:hover {
     box-shadow: 0 0 40px 10px #ff1744, 0 0 15px 4px black inset;
     border-color: #ff1744;
 }
