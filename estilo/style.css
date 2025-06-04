@@ -177,9 +177,9 @@ font-style: oblique;
 #pagina-secundaria article{
 font-style: oblique;
 margin: 12px;
-color: violet;
+color: rgb(252, 0, 0);
 font-family: "Bangers", system-ui; 
-text-shadow: 0px 7px 11px rgba(0, 209, 52, 0.932);
+text-shadow: #1f1e1e 2px 4px 3px;
 font-size: 23.5px;
 }
 
@@ -187,7 +187,7 @@ font-size: 23.5px;
     font-family: fantasy;
     font-size: 30px;
     font-family: "Orbitron", sans-serif;
-    color: rgb(219, 9, 9);
+    color:rgb(0, 3, 204);
     text-shadow: 2px 4px 3px rgb(0, 0, 0);
 }
 
@@ -197,8 +197,8 @@ font-size: 23.5px;
     font-family: "Orbitron", sans-serif;
     color: rgb(219, 9, 9);
     text-shadow: 2px 4px 3px rgb(0, 0, 0);
-
 }
+
 #ciencia-ficción div h4{
     font-family: fantasy;
     font-size: 30px;
@@ -219,7 +219,7 @@ font-size: 23.5px;
     font-family: fantasy;
     font-size: 30px;
     font-family: "Orbitron", sans-serif;
-    color: rgb(219, 9, 9);
+    color:rgb(0, 3, 204);
     text-shadow: 2px 4px 3px rgb(0, 0, 0);
 }
 
@@ -260,6 +260,7 @@ font-family: "Bangers", system-ui;
    background-color: blue;
    grid-area: item3;
    text-align: center;
+   font-size: 22px;
 
 }
 
@@ -284,8 +285,7 @@ padding: 5px;
 .item-7 {
 background-color: red;    
 grid-area: item7;
-padding: 3px;
-font-size: 16.5px;
+font-size: 19.8px;
 }
 
 .item-8 {
