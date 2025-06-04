@@ -461,6 +461,11 @@ background-size: cover;
 background-repeat: no-repeat;
 padding: 5px;
 font-family: "Orbitron", sans-serif;
+}
+
+#contacto ul li {
+  color: wheat;
+  font-size: 18px;
 
 }
 
@@ -475,9 +480,10 @@ text-shadow: 3px 4px 2px #f0ff17;
 }
     
 #contacto label{
-color: white;
+color:#C99471;
 font-optical-sizing: auto;
 font-weight: 450;   
+font-size: 22px;
 }
     
 #contacto h2 {
@@ -504,30 +510,12 @@ box-shadow: 1px 44px 53px 0px red;
 margin-bottom: 100px;
 } 
 
-#contacto h3{
-color: black;
-margin-bottom: 50px;
-font-weight: 1000;
-font-size: x-large;
-}
-
-#contacto .parrafo1{
-margin-bottom: 18px; 
-font-weight: 486;   
-color: #1f1e1e;
-font-family: "Orbitron", sans-serif;
-}
-
-#contacto .parrafo{
-color: white;
-margin-bottom: 15px;  
-font-family: "Orbitron", sans-serif;
-}
 /*final de contacto*/
 
 /*Responsive*/
 
 @media (max-width: 900px) {
+    
     /* Ciencia Ficción */
     #ciencia-ficción {
         grid-template: none;
@@ -647,12 +635,5 @@ font-family: "Orbitron", sans-serif;
     #pagina-principal article {
         font-size: 1.1em;
         padding: 0 10px;
-    }
-
-    /* Menú de navegación */
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
     }
 }

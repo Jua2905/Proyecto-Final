@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,7 @@
     <meta name="keywords" content="cómics, historietas, tiras cómicas, Marvel, DC, manga, ciencia ficción, terror, aventura, cultura">
     <meta name="description" content="Explora el fascinante mundo de los cómics, desde sus orígenes hasta su impacto cultural en la actualidad. Descubre historias de superhéroes, ciencia ficción y más.">
 </head>
-<body >
+<body>
     <header>
         <nav>
             <ul>
@@ -24,9 +24,9 @@
     </header> 
     <main id="pagina-secundaria">       
         <h1 class="animate__animated animate__bounce">Te presentamos el apartado de Ciencia Ficción</h1>
-        
-        <article class="animate__animated animate__fadeInLeft">La ciencia ficción es un género literario y artístico que explora el impacto de la ciencia, la tecnología y otros factores futuristas en la sociedad y el individuo. Se caracteriza por la especulación sobre avances científicos y descubrimientos aún no alcanzados, explorando temas como el viaje en el tiempo, la inteligencia artificial, los viajes espaciales y los mundos distópicos.</article>
-
+        <article class="animate__animated animate__fadeInLeft">
+            La ciencia ficción es un género literario y artístico que explora el impacto de la ciencia, la tecnología y otros factores futuristas en la sociedad y el individuo. Se caracteriza por la especulación sobre avances científicos y descubrimientos aún no alcanzados, explorando temas como el viaje en el tiempo, la inteligencia artificial, los viajes espaciales y los mundos distópicos.
+        </article>
         <section id="ciencia-ficción"> 
             <div class="item-1 animate__animated animate__zoomIn">
                 <h2>El ¡BOOM! de los Cómic's</h2>
@@ -36,7 +36,9 @@
             <div class="item-2 animate__animated animate__fadeInRight">
                 <h3>Años 80:</h3> 
                 <p>La Revolución del Cómic's para ésta década fue testigo de algunas de las narraciones más innovadoras y de la transformación de las historietas en una forma de arte más seria. Nacieron Cómics oscuros y adultos, surgen Watchmen (Alan Moore, 1986) y The Dark Knight Returns (Frank Miller, 1986), revolucionando la narrativa gráfica, por ejemplo Crisis en Tierras Infinitas (1985): DC Comics reinicia su universo, ordenando décadas de continuidad. Dark Horse, Image y Valiant ofrecen alternativas a Marvel y DC para hacerles competencia a estas franquicias populares. Popularidad de los X-Men: La serie de Chris Claremont y Jim Lee hace que los X-Men sean los más vendidos de la década. A nivel mundial explotan del cómic Akira (1982) y Maus (1980) ganando reconocimiento global.</p>                
-                <img src="/contenido/avengersComics.jpg" alt="heroes" width="125px"> <img src="/contenido/MarvelMonstruos.jpg" alt="mosntruos" width="127px"> <img src="/contenido/SuperMan.jpg" alt="Spuer-Man" width="131px">
+                <img src="/contenido/avengersComics.jpg" alt="heroes" width="125px">
+                <img src="/contenido/MarvelMonstruos.jpg" alt="mosntruos" width="127px">
+                <img src="/contenido/SuperMan.jpg" alt="Spuer-Man" width="131px">
             </div>
             <div class="item-3 animate__animated animate__fadeInUp">
                 <h4>Características de la Ciencia Ficción:</h4>
@@ -74,6 +76,11 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-   </script>  
+        document.getElementById('menu-toggle').onclick = function() {
+            var menu = document.querySelector('nav ul');
+            menu.classList.toggle('show');
+            this.setAttribute('aria-expanded', menu.classList.contains('show'));
+        };
+    </script>  
 </body>
 </html>
