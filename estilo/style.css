@@ -163,7 +163,7 @@ padding: 32px;
 margin-bottom: 28px;
 font-size: 62px;
 font-weight: 700;
-color: blue;
+color: rgb(0, 0, 255);
 text-align: center;
 text-shadow: 2px 4px 3px rgb(0, 0, 0);
 font-family: 'Bebas Neue';
@@ -171,7 +171,6 @@ font-style: oblique;
 }
 
 #pagina-secundaria h1.animate__bounce {
-  opacity: 0.7;
   animation-duration: 0.5s;
 }
 
