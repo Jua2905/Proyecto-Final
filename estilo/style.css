@@ -525,3 +525,134 @@ font-family: "Orbitron", sans-serif;
 }
 /*final de contacto*/
 
+/*Responsive*/
+
+@media (max-width: 900px) {
+    /* Ciencia Ficción */
+    #ciencia-ficción {
+        grid-template: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    #ciencia-ficción > div {
+        width: 95%;
+        max-width: 500px;
+        min-width: 220px;
+        margin: 0 auto;
+    }
+    #ciencia-ficción img,
+    #ciencia-ficción video {
+        width: 100% !important;
+        height: auto;
+        max-width: 100%;
+    }
+    #pagina-secundaria h1,
+    #pagina-secundaria article {
+        font-size: 1.2em;
+        padding: 0 10px;
+    }
+
+    /* Terror */
+    #P-terror {
+        grid-template: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        height: auto;
+    }
+    #P-terror > div {
+        width: 95%;
+        max-width: 500px;
+        min-width: 220px;
+        margin: 0 auto;
+    }
+    #terror h1,
+    #terror article {
+        font-size: 1.2em;
+        padding: 0 10px;
+    }
+    #terror audio {
+        width: 95vw;
+        max-width: 350px;
+    }
+
+    /* Histórico */
+    #historico {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    #historico h1 {
+        font-size: 2.2em;
+        padding: 10px;
+    }
+    #historico article {
+        font-size: 1.1em;
+        width: 95vw;
+        margin: 10px auto;
+    }
+    #historico ol {
+        font-size: 1em;
+        padding: 10px;
+        margin: 10px;
+    }
+    #historico li {
+        font-size: 1.2em;
+    }
+
+    /* Contacto */
+    #contacto {
+        padding: 10px;
+    }
+    #contacto h1 {
+        font-size: 2.2em;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+    #contacto h2 {
+        font-size: 1.5em;
+        margin: 30px 0;
+    }
+    #contacto article {
+        width: 95vw;
+        min-width: 200px;
+        font-size: 1em;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+
+    /* INICIO */
+    #inicio {
+        grid-template: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        height: auto;
+    }
+    #inicio > div {
+        width: 95%;
+        max-width: 500px;
+        min-width: 220px;
+        margin: 0 auto;
+    }
+    #pagina-principal h1 {
+        font-size: 2em;
+        padding: 10px;
+    }
+    #pagina-principal article {
+        font-size: 1.1em;
+        padding: 0 10px;
+    }
+
+    /* Menú de navegación */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
