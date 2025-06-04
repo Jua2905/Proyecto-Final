@@ -151,9 +151,7 @@ animation-delay: 4.5s;
 
 /*comienzo de ciencia ficción*/
 #pagina-secundaria{
-margin: 0;
-padding: 0;
-height: 300vh;
+height: 200vh;
 box-sizing: border-box;
 background-image: url(../contenido/MarvelYDc.jpg);
 }
@@ -226,7 +224,7 @@ font-size: 23.5px;
 
 #ciencia-ficción{
     display: grid;    /*   largo    y    ancho           */
-    grid-template: repeat(3, 29%) / 400px repeat(4, 355px);
+    grid-template: repeat(3, 29%) / 400px repeat(4, 300px);
     grid-template-areas: 
     "item3 item8 item8 item1 item6"
     "item2 item4 item7 item7 item6"
@@ -253,7 +251,7 @@ font-family: "Bangers", system-ui;
     background-color: blue;
     grid-area: item2;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     padding: 2.5px;
 }
 
@@ -271,7 +269,7 @@ grid-area: item4;
 .item-5 {
 background-color: blue;    
 grid-area: item5;
-font-size: 28px;
+font-size: 23.9px;
 padding: 5px;
 }
 
@@ -286,13 +284,13 @@ padding: 5px;
 background-color: red;    
 grid-area: item7;
 padding: 3px;
-font-size: 19.5px;
+font-size: 16.5px;
 }
 
 .item-8 {
     background-color: blue;
     grid-area: item8;
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
 }
 
